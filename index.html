@@ -17,8 +17,10 @@
           
        
 						</script>
-							<h2   style="color:silver;font-family: courier: font-size: 150px">Super Guesser</h2>
+							<h2   style="font-size:30px;font-family:Comic Sans MS;color:#4CAF50;font-size: 360%">Super Guesser</h2>
 								<button  onclick="fun2()" >About Game</button>
+									<button  id ="attempt"  >	Attempt No:0</button>
+									<!--<button  id ="Sc"  >Score:</button>-->
 											<!--<select  required id = "player">
 											 <option value="">Select  players</option>
 											  <option value=1>1</option>
@@ -26,7 +28,9 @@
 											  <option value=3>3</option>
 											  <option value=4>4</option>
 											</select>-->
-
+											
+											 <marquee behavior="scroll" direction="up" scrollamount="25">	<img id="img" src="" align="right" width="300"  height="250" >
+											</marquee>
 									<div id="divl">
 										<button  onclick="fun(this)"  value = 1   class="button button5"  >1</button>
 										<button   onclick="fun(this)"value = 2  class="button button5 ">2</button>
@@ -34,13 +38,14 @@
 										<button   onclick="fun(this)" value = 4 class="button button5">4</button>
 										<button   onclick="fun(this)" value = 5 class="button button5">5</button></div>
 										<div id="div2">
+										
 										<button   onclick="fun(this)" value = 6 class="button button5">6</button>
 										<button    onclick="fun(this)" value = 7 class="button button5">7</button>
 										<button  onclick="fun(this)" value = 8  class="button button5">8</button>
 										<button onclick="fun(this)"value = 9   class="button button5">9</button>
 										<button onclick="fun(this)"  value = 10 class="button button5">10</button>
 									</div>
-
+                                       
 										<audio id="myAudio">
 												  <source src="laughter2.wav" type="audio/wav">
 												</audio>
@@ -57,7 +62,7 @@
 												  <source src="sow1.mp3" type="audio/mp3">
 										</audio>
 		
-					<p id="about"> </p>
+					<p id="about" style="font-size:30px;font-family:Comic Sans MS;"> </p>
 					</body>
  
 								<footer>
