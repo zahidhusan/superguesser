@@ -3,7 +3,7 @@
 		   var person;
 							function fun(e)
 											{
-												  count++;
+												  count=count+1;
 							                      document.getElementById("attempt").style.visibility="visible";
 												
 												document.getElementById("attempt").innerHTML=" Guesses Attempted : "+ count;
